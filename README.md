@@ -21,7 +21,6 @@ Um site inspirado no universo encantador do Studio Ghibli desenvolvido com HTML,
 ## 🚀 Como executar o projeto
 
 1. Clone o repositório:
-https://github.com/Yaswsxz/API.git
 bash
 
 Abra a pasta do projeto
