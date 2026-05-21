@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Ghibli - Filmes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 Studio Ghibli</h1>
+    <p>Todos os filmes do estúdio</p>
+  </header>
+  <main>
+    <div id="busca-box">
+      <input type="text" id="busca" placeholder="Buscar filme..." />
+    </div>
+    <div id="status">Carregando filmes...</div>
+    <div id="grid"></div>
+  </main>
+  <div id="modal" class="escondido">
+    <div id="modal-box">
+      <button id="fechar">✕</button>
+      <div id="modal-conteudo"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
